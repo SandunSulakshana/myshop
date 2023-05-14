@@ -7,6 +7,7 @@ namespace MyShop.Web.API.Controllers
     [ApiController]
     public class HomeCotroller : ControllerBase
     {
+        [HttpGet]
         public string Index()
         {
             return "You are have reached outr home";
